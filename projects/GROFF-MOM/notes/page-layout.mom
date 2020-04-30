@@ -1,0 +1,154 @@
+.INCLUDE /home/benjamin/.mom-format/Notes-Page-Setup.mom
+\#{{{ DOCUMENT INFO
+\
+.TITLE "First Year Composition"
+.SUBTITLE "\*[ROM]ENG101" "Holly Jacobus\*[PREV]"
+.AUTHOR "Benjamin Anderson"
+.MISC "Proffessor Holly Jacobus" "2019"
+\
+\#}}}
+.START
+.CHAPTER 12
+\
+\#{{{ Orietation
+.HEADING 1 Oriantation
+.HEADING 2 "Scavenger Hunt"
+\
+.HEADING 3 "\*[red]Term:\*[black]  Food"\*[black]
+\#{{{ DEFINE
+.SPACE -10p
+.TAB 1
+\*[BD]Definition\*[PREV]
+.TN
+What we eat!
+.ALD 5p
+.TAB 1
+\*[BD]Examlples\*[PREV]
+.TN
+Apples, bananas etc.
+.ALD 5p
+.TAB 1
+\*[BD]Notes\*[PREV]
+.TN
+I enjoy Eating Apples
+.TQ
+\#}}}
+.HEADING 2 "Orientation Quiz
+.HEADING 2 "Reading to Understand Literal Meaning
+\
+.HEADING 2 "Introduction Discussion
+.HEADING 2 "Connect 1
+\
+.HEADING 3 "\*[red]Term:\*[black] Entropy"\*[black]
+\#{{{ DEFINE
+.SPACE -10p
+.TAB 1
+\*[BD]Definition\*[PREV]
+.TN
+The entropy of a system is related to the amount of {information} it contains.  A highly ordered system can be described using fewer {bits} of information than a disordered one.  For example, a string containing one million "0"s can be described using {run-length encoding} as [("0", 1000000)] whereas a string of random symbols (e.g. bits, or characters) will be much harder, if not impossible, to compress in this way.
+.ALD 5p
+.TAB 1
+\*[BD]Examples\*[PREV]
+.TN
+When adding the pencil to an organized desk, the entpropy began as low, and then increaded when the pen created disorder.
+.TAB 1
+\*[BD]Notes\*[PREV]
+.TN
+Read up on theorum in reference to thermodynamics.
+.TQ
+\#}}}
+\
+\
+\#{{{ Define
+.HEADING 3 "\*[red]Term:\*[black] Kathy"\*[black]
+.SPACE -10p
+.TAB 1
+\*[BD]Definition\*[PREV]
+.TN
+Beautiful
+.ALD 5p
+.TAB 1
+\*[BD]Examlples\*[PREV]
+.TN
+My Wife!
+.ALD 5p
+.TAB 1
+\*[BD]Notes\*[PREV]
+.TN
+I love ,y wife, kathy, So much!
+.TQ
+\#}}}
+\
+.HEADING 2 "Generating Ideas
+.HEADING 2 "Planning and Organizing
+.HEADING 2 "Phrases, Clauses, and Fragments
+\
+\#}}}
+\
+\#{{{ Module 1
+.HEADING 1 "Module 1 Overview"
+\
+.HEADING 2 "Unit 1.1"
+.HEADING 2 "Assignment: Journal--Point of View"
+.HEADING 2 "Assignment: Method of Communication"
+\
+\
+\
+.HEADING 3 "Quiz: Page Formatting"
+.HEADING 3 "Composing a Strong Thesis Statement"
+.HEADING 3 "Lesson: MLA: Introduction, Works Cited, In-Text Citations"
+.HEADING 3 "Lesson: Academic Writing"
+.HEADING 3 "Discussion: Communication"
+\
+\
+.HEADING 2 "Unit 1.2
+\
+\
+\
+.HEADING 3 "Lesson: Compare/Contrast Writing"
+.HEADING 3 "Lesson: Writing the Comparison/Contrast Thesis Statement"
+.HEADING 3 "Discussion: Devil's Advocate"
+.HEADING 3 "Assignment: The Devil You Know
+.HEADING 3 "Connect 2"
+\
+\
+\
+\
+.HEADING 4 Drafting
+.HEADING 4 Revising
+.HEADING 4 "Developing an Effective Thesis or Claim"
+.HEADING 4 "Fused (Run-on) Sentences and Comma Splices"
+\
+\
+\
+.HEADING 3 "Commas"
+\
+\
+.HEADING 2 "Unit 1.3"
+\
+\
+\
+.HEADING 3 "Lesson: Basics of the MLA Works Cited Page"
+.HEADING 3 "Essay: Compare and Contrast"
+.HEADING 3 "Student Sample: Compare/Crast Paper"
+.HEADING 3 "Quiz: Compare and Contrast"
+\
+\
+\
+\
+\
+\#}}}
+\
+\#{{{ Module 2 Overview
+\
+.HEADING 1 "Module 2 Overview"
+\
+\
+\#}}}
+\
+\
+\#{{{ End of Document Settings
+.TOC_HEADER_STRING "Table of Contents"
+.PAGINATE_TOC OFF
+.TOC
+\#}}}

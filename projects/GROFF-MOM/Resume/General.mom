@@ -1,0 +1,357 @@
+\#{{{ PAGE SETUP
+.PRINTSTYLE TYPESET
+.PAPER LETTER
+.L_MARGIN .5i
+.R_MARGIN .5i
+.T_MARGIN .5i
+.B_MARGIN .5i
+.PT_SIZE 11p
+.FAMILY H
+.PT_SIZE 11
+.HEADERS OFF
+.PAGINATION OFF
+.FOOTERS OFF
+.DOCHEADER_ADVANCE .5i
+.AUTHOR_SPACE -12p
+.AUTHOR_SIZE 12p
+.DOCHEADER_FONT I
+.ATTRIBUTE_STRING ""
+.TITLE_SIZE +10p
+.KERN
+\#}}}
+\#{{{ DOCUMENT INFO
+.TITLE "Kathy Gusenkov Anderson"
+.AUTHOR "kathygusenkov@fuller.edu  |  (925) 681-9973  |  13601 S 44th St. #2114, Phoenix, AZ 85044"
+\#}}}
+.START
+\
+\
+\
+\
+\
+\
+\#{{{ TAB Format
+.SILENT
+.PAD "\*[ST1]++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\*[ST1X]]\*[ST2]#\*[ST2X]"
+.SILENT OFF
+.ST  1  L QUAD
+.ST  2  R QUAD
+.TAB_SET 3 .5i 6.5i L QUAD
+.TAB_SET 4 0 3i L QUAD
+.TAB_SET 5 2.9i 2.5i L QUAD
+.TAB_SET 6 5.1i 2.5i L QUAD
+\#}}}
+\
+\#{{{ INTERNSHIPS
+.HEADING 1 "Internships"
+.LS 2p
+.DRH 1.25 0P 7.5i
+.LS PEV
+\#{{{ Internship 1
+.SP
+.TAB 1
+\*[BDI]Exhale PTSD Recovery Center\*[PREV]
+.TN
+Chandler, AZ
+.TAB 1
+.IL .5i
+Masters Level Intern
+.ILX
+.TN
+June 2019 - Present
+.TQ
+.SP
+\#}}}
+\#{{{ INTERNSHIP 2
+\
+.TAB 1
+\*[BDI]The Bridge Counseling, Consulting, & Mediation\*[PREV]
+.TN
+Tempe, AZ
+.TAB 1
+.IL
+Masters Level Intern
+.ILX
+.TN
+April 2019 - Present
+.TQ
+\#}}}
+\#}}}
+\
+\#{{{ EDUCATION
+\#{{{ heading
+.HEADING 1 "Education"
+.LS 2p
+.DRH 1.25 0P 7.5i
+.LS PEV
+\#}}}
+\
+\#{{{ SCHOOL 1
+.SP
+.TAB 1
+\*[BDI]Fuller Theological Seminary\*[PREV]
+.TN
+Phoenix, AZ
+.TAB 1
+.IL
+Masters of Science, Marriage and Family Therapy
+.ILX
+.TN
+September 2018 - Present
+.TQ
+.SP +5p
+\#}}}
+\#{{{ SCHOOL 2
+\
+.TAB 1
+\*[BDI]Caliornia State University, East Bay\*[PREV]
+.TN
+Hayward, CA
+.TAB 1
+.IL
+Bachelors of Arts, Psychology
+.ILX
+.TN
+September 2016 - June 2018
+.TQ
+\#}}}
+\#{{{ SCHOOL 3
+\
+.SP +5p
+.TAB 1
+\*[BDI]Diablo Valley College\*[PREV]
+.TN
+Pleasant Hill,CA
+.TAB 1
+.IL
+Associate of Arts for Transfer, Psychology
+.ILX
+.TN
+August 2013 - May 2016
+.TQ
+\#}}}
+\#}}}
+\
+\#{{{ WORK EXPERIENCE
+\#{{{ heading
+.HEADING 1 "Work Experience"
+.LS 2p
+.DRH 1.25 0P 7.5i
+.LS PEV
+\#}}}
+\#{{{ JOB 1
+.SP
+.TAB 1
+\*[BDI]STE Consultants\*[PREV]
+.TN
+Lafayette, CA
+.SP +5p
+.TAB 1
+Registered Behavioral Technician (RBT)
+.TN
+January 2018 - June 2018
+.SP +5p
+.TAB 3
+Utilized principles of behavior to issues of social importance with clients
+affected by Autism Spectrum Disorder (ASD). Under the supervision of of a Board
+Certified Behavioral Analyst (BCBA), the RBT implemented a client-tailored
+program to increase skills of social and communicative significance and decrease
+maladaptive behavior in order to promote independence and dignity in the client.
+.TQ
+.SP
+\#}}}
+\#{{{ JOB 3
+.TAB 1
+\*[BDI]Center for Autism and Related Disorders (CARD)\*[PREV]
+.TN
+Walnut Creek, CA
+.SP +5p
+.TAB 1
+Therapist Liaison
+.TN
+February 2017 - September 2017
+.TQ
+.SP +5p
+.TAB 3
+Responsibilities included interviewing potential candidates for Behavioral Therapist position, overseeing Human Resources clearance of each new hire, and implementing hands on training of Applied Behavioral Analysis (ABA) through lecture and role play sessions. The Liaison continually supported clinical staff through Quality Assurance check-ins, monthly staff trainings, Career Development and Mentorship meetings, and monthly staff socials.
+.SP +5p
+.TAB 1
+Behavioral Therapist
+.TN
+September 2015 - February 2017
+.SP +5p
+.TAB 3
+Trainer of new clinical staff, parent training
+.TAB 3
+Senior Therapist
+.TAB 3
+Trained in Health Insurance Portability and Accountability Act (HIPAA) policies
+.TAB 3
+Trained in Applied Behavioral Analysis (ABA) through the Institute for Behavioral Training (IBT)
+.TQ
+\#}}}
+\#{{{ JOB 2
+.SP
+.TAB 1
+\*[BDI]Beginnings and Beyond: Montessori Christian School\*[PREV]
+.TN
+Concord, CA
+.SP +5p
+.TAB 1
+Classroom Assistant
+.TN
+November 2014 -August 2015
+.TQ
+.SP +5p
+.TAB 3
+Lunchtime and nap coordinator
+.TAB 3
+Outside activity regulator
+.TQ
+\#}}}
+\#}}}
+\
+\#{{{ CERTIFICATIONS
+\#{{{ heading
+.HEADING 1 "Certifications"
+.LS 2p
+.DRH 1.25 0P 7.5i
+.LS PEV
+\#}}}
+\#{{{ LIST
+.SP
+.TAB 1
+\*[BD]RBT (Registered Behavioral Technician)\*[PREV]
+.TN
+July, 2017 - October 2018
+.SP +5p
+.TAB 1
+\*[BD]BCAT (Board Certified Autism Technician)\*[PREV]
+.TN
+November, 2016 - October 2018
+.TQ
+\#}}}
+\#}}}
+\
+\#{{{ SKILLS
+\#{{{ heading
+.SP +2p
+.HEADING 1 "Skills"
+.LS 2p
+.DRH 1.25 0P 7.5i
+.LS PEV
+\#}}}
+.SP
+.TAB 4
+Applied Behavioral Analysis (ABA)
+.TN
+Discrete Trial Training (DTT)
+.TN
+Natural Environment Training (NET)
+.SP +5p
+.TAB 4
+Aggressive Behavior Management
+.TN
+Behavior Skills Training (BST)
+.TN
+HIPPA, Russian (fluent)
+.SP +5p
+.TAB 4
+Public communication and presentation
+.TN
+Recruitment
+.TN
+Music education and performance
+.SP +5p
+.TAB 4
+Team building
+.TN
+Leadership
+.TQ
+\#}}}
+\
+\#{{{ PROJECTS
+\#{{{
+.HEADING 1 "Projects"
+.LS 2p
+.DRH 1.25 0P 7.5i
+.LS PEV
+.SP
+\#}}}
+\#{{{ project 1
+.TAB 1
+\*[BDI]RECOVERY Homeless Outreach First Presbyterian Church Concord\*[PREV]
+.TN
+August 2012 - October 2013
+.TAB 3
+.SP +5p
+Preparation and distribution of food for the homeless population in downtown Concord
+.TAB 3
+.SP +5p
+Fostering faithful community to all attendees
+.TQ
+.SP +5p
+\#}}}
+\#{{{ project 2
+.TAB 1
+\*[BDI]Mexico Mission Trip First Presbyterian Church Concord\*[PREV]
+.TN
+August 2012 - October 2013
+.TAB 3
+.SP +5p
+Fostered bilingual (Spanish and English) relationships with children in the impoverished areas of Tijuana in order to promote social welfare
+.TAB 3
+.SP +5p
+Built 2 houses with a diverse team over three days for overlooked families
+.TQ
+\#}}}
+\#}}}
+\
+\#{{{ REFERENCES
+\#{{{
+.HEADING 1 "References"
+.LS 2p
+.DRH 1.25 0P 7.5i
+.LS PEV
+.SP +5p
+\#}}}
+\#{{{ reference 1
+.TAB 1
+\*[BD]Edward Callirgos, LAMFT
+.TN
+The Bridge CCM\*[PREV]
+.TAB 1
+edcallirg@gmail.com
+.TN
+Clinical Supervisor
+.TAB 1
+(480) 203-7165
+.SP +5p
+\#}}}
+\#{{{ reference 2
+.TAB 1
+\*[BD]Karrie Meyer
+.TN
+Exhale PTSD Recovery Center\*[PREV]
+.TAB 1
+karrie.meyer@exhalerecovery.com
+.TN
+Site Director
+.TAB 1
+(480) 888-6379
+.SP +5p
+\#}}}
+\#{{{ reference 2
+.TAB 1
+\*[BD]Karrie Meyer
+.TN
+Exhale PTSD Recovery Center\*[PREV]
+.TAB 1
+nancy.romanick@exhalerecovery.com
+.TN
+Clinical Supervisor
+.TAB 1
+(480) 215-6216
+\#}}}
+\
+\#}}}

@@ -1,0 +1,198 @@
+%xelatex
+%{{{1 Top matter
+\documentclass[letterpaper,11pt]{article}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{scrextend}
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{setspace}
+\usepackage[ampersand]{easylist}
+\usepackage{wrapfig}
+%\usepackage{showframe}
+
+\titleformat{\section}{\large\bfseries\centering}{}{0em}{\underline}%[\rule{3cm}{.2pt}]
+\titlespacing{\section}{0pt}{7pt}{7pt}
+%{{{1 Commands
+\newcommand{\module}[2]{%{{{2
+	\clearpage
+	\section{\LARGE Module {#1} \hspace{1em} #2
+	}}
+\newcommand{\class}[1]{%{{{2
+	\subsection{\Large\textbf{Class Date:} {#1}} }
+\newcommand{\topic}[1]%{{{2
+{\subsubsection{Topic: {#1}}}
+\newcommand{\define}[4]{%{{{2
+\addcontentsline{toc}{subsubsection}{\color{red}\bfseries Term:{} {#1}}
+\begin{labeling}{Definition\hspace{1em}}
+\item[\color{red}\Large\textbf{Term}]{#1}
+\item[\textbf{Definition}]{#2}
+\item[\textbf{Example}]{#3}
+\item[\textbf{Note}]{#4}
+\end{labeling}
+}
+\newcommand{\blist}{%{{{2
+\ListProperties(Hide=100, Hang=true, Progressive=3ex, Space=.5em, Style*=\Large$\bullet$ ,Style**= ,Style2*=$\circ$ ,Style2**= ,Style3*=\tiny$\blacksquare$ ,Style3**= ,Style4*=$\blacktriangle$ ,Style4**= )
+\vspace{1em}
+\begin{easylist}
+}
+\title{Class Notes with {\LaTeX} Template}
+\author{Benjamin Anderson}
+\setlength{\parindent}{0in}
+
+\begin{document}%{{{1
+\maketitle
+\begin{spacing}{1.2}
+\tableofcontents
+\end{spacing}
+\clearpage
+
+\module {1} {Introduction}%{{{1
+\class{\today}
+\topic{Types of Animal}
+Animals such as tigers and lions eat meats!
+\blindtext
+\vspace{1em}
+\blist
+	& Candycanes
+	&& Candycorn
+	& Watermelon
+	&&& Syrup
+	&&&& Maple
+\end{easylist}
+
+\blist
+	& Candycanes
+	&& Candycorn
+	& Watermelon
+	&&& Syrup
+	&&&& Maple
+\end{easylist}
+
+\module {2} {Frogs} %{{{1
+
+\class
+{\today} %Date
+
+\define
+{Frogs} %term
+{cool} %Definition
+{dude} %Example
+{stuff} %Notes
+
+\topic{Anthropods} %Topic
+\blindtext
+
+\blindtext
+
+\blindtext
+\topic{Candada} %Topic
+
+above the US
+
+Into tough ham
+\begin{itemize}
+\item{Cats}
+\item{Dogs}
+\end{itemize}
+\blindtext
+
+\blindtext
+
+\blindtext
+
+\blindtext
+
+\blindtext
+
+\blindtext
+
+\blindtext
+
+\blindtext
+
+\define
+{Tiger}
+{ A very large and powerful carnivore ({Felis tigris}) native of Southern Asia and the East Indies. Its back and sides are tawny or rufous yellow, transversely striped with black, the tail is ringed with black, the throat and belly are nearly white. When full grown, it equals or exceeds the lion in size and strength. Called also {royal tiger}, and {Bengal tiger}.  [1913 Webster]}
+{Tigers are really Big!}
+{I with i had a tiger\ldots}
+\topic{Orange Peels}
+\define
+{Candy}
+{dsfhdshfshiufhwakjnkjsaifaskdfnsahfksfslkdh}
+{Tigers are really Big!}
+
+\subsubsection{Recollections}
+
+\textbf{Ideas}
+
+{\blindtext}
+\blindtext
+
+\blindtext
+
+\module {2} {}%{{{1
+\class{\today}
+\topic{Dinner}
+\blindtext
+
+\module {3} {}%{{{1
+\class
+{dsfds} %Date
+
+\topic{dsfdsaf} %Topic
+
+\define
+{sdfsd} %term
+{df} %Definition
+{sdf} %Example
+{sdf} %Notes
+
+
+
+\blindtext
+\module {4} {foodssdfkjh}%{{{1
+\blindtext
+\blindtext
+\begin{wrapfigure}{o}{0.5\textwidth}
+	\begin{center}
+\begin{equation}\label{eqn:abc}
+y=\frac{\left(\sum_{i=1}^n x_i\right)^2}{2\pi}
+\end{equation}
+\caption{An equation}
+		\end{center}
+\end{wrapfigure}
+\blindtext
+
+\blindtext
+
+\define
+{<++>} %term
+{<++>} %Definition
+{<++>} %Example
+{<++>} %Notes
+\define
+{aksjdhfkjsdhf} %term
+{dskfhksjafsdf} %Definition
+{kjdsfkjsdhfkjhdsf} %Example
+{djhfsufjencsndc} %Notes
+\clearpage
+\module {5} {Abstract Concepts} %{{{1
+\class{\today}{}
+\topic{Physics}
+\define
+{Entropy} %term
+{A force in nature which is recognized in various effects, but especially in the phenomena of fusion and evaporation, and which, as manifested in fire, the sun's rays, mechanical action, chemical combination, etc., becomes directly known to us through the sense of feeling. In its nature heat is a mode of motion, being in general a form of molecular disturbance or vibration. It was formerly supposed to be a subtile, imponderable fluid, to which was given the name {caloric}.  [1913 Webster] } %Definition
+{Adding items to a table} %Example
+{I learned about this in The Elegant Universe} %Notes
+\class{\today} %Date
+The best way to end certain parts of text is to \blindtext
+\end{document}%{{{1

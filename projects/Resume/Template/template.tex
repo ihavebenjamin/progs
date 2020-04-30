@@ -1,0 +1,302 @@
+% xelatex
+%{{{ Top matter
+\documentclass[letterpaper,11pt]{article}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{setspace}
+%}}}
+%{{{ Global Styles
+\newcommand{\datestyle}{\hfill \textsc}
+\newcommand{\flstyle}{\textbf}
+\newcommand{\slstyle}{\normalsize\textsc}
+\newcommand{\sumstyle}{\footnotesize}
+\newcommand{\locstyle}{\textnormal}
+\newcommand{\infostyle}{\color{darkgray}\textsc}
+%}}}
+%{{{ Entry Commands
+
+%{{{ \info Command
+\newcommand{\info}[4]{
+	\begin{minipage}[t]{1\textwidth}
+\par{\centering{\Huge \bfseries{#1}}\par}
+		\vspace{1em}
+	\end{minipage}\\
+	\centering{\infostyle{
+		{#2}\hfill
+		{#3}\hfill
+		{#4}}\vspace{1em} }
+	}
+%}}} End \info Command Definition
+%{{{ \school Command Definition
+\newcommand{\school}[4]{
+
+\begin{minipage}[t]{.15\textwidth}
+\datestyle{#1}
+
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.80\textwidth}
+\flstyle{#2}
+\hfill\locstyle{#3}
+
+\vspace{.2cm}
+\slstyle{#4}
+
+\end{minipage}\\
+\vspace{.2cm}
+}
+%}}} End \school command Definition
+%{{{ \intern Command Definition
+%intern{Center}{Role}{Location}
+\newcommand{\intern}[4]{
+
+\begin{minipage}[t]{.15\textwidth}
+\datestyle{#1}
+
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.80\textwidth}
+
+\flstyle{#2}
+\hfill\locstyle{#3}
+
+\vspace{.2cm}
+\slstyle{#4}
+
+\end{minipage}\\
+\normalfont
+\vspace{.2cm}
+}
+%}}} End \intern command Definition
+%{{{ \work Command Definition
+%work{#1date}{#2Employer}{#3Position}{#4Location}{#5Responsibilities}
+\newcommand{\work}[5]{
+
+\begin{minipage}[t]{.15\textwidth}
+\datestyle{#1}
+
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.80\textwidth}
+\flstyle{#2}
+\hfill\locstyle{#3}
+
+\vspace{.2cm}
+\slstyle{#4}
+
+\vspace{.1cm}
+\sumstyle{#5}
+\end{minipage}\\
+\vspace{1em}
+}
+%}}} End \work command Definition
+%{{{ \cert Command
+\newcommand{\cert}[2]{
+\begin{minipage}[t]{1\textwidth}
+	\textsc{#1} \hfill \locstyle{#2}
+\end{minipage}\\
+\vspace{1em}
+}
+%}}} End \work Command Definition
+%{{{ \workext Command Definition (for 2 positions)
+%workext{#1date}{#2Position}{#3Responsibilities}
+\newcommand{\workext}[3]{
+\begin{minipage}[t]{.15\textwidth}
+\raggedleft\datestyle{#1}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.80\textwidth}
+
+\slstyle{#2}
+
+\vspace{.1cm}
+
+\sumstyle{#3}
+\end{minipage}\\
+\vspace{1em}
+}
+%}}} End \workl command Definition
+%{{{ \refcon Command
+\newcommand{\refcon}[6]{
+\begin{minipage}[t]{1\textwidth}
+	\flstyle{#1}\hfill\locstyle{#2}\\
+	\slstyle{#3}\hfill\locstyle{#4}\\
+	\slstyle{#5}\\
+	\slstyle{#6}
+	\end{minipage}
+}
+%}}}
+%}}}
+%{{{ Custom spacing and formatting
+\titleformat{\part}{\Huge\scshape\filcenter}{}{1em}{}
+\titleformat{\section}{\Large\bf\raggedright}{}{1em}{}[{\titlerule[2pt]}]
+\titlespacing{\section}{0pt}{3pt}{7pt}
+\titleformat{\subsection}{\large\bfseries\centering}{}{0em}{\underline}%[\rule{3cm}{.2pt}]
+\titlespacing{\subsection}{0pt}{7pt}{7pt}
+% No indentation
+\setlength{\parindent}{0in}
+\let\lineheight\baselineskip
+\pagenumbering{gobble}
+%}}}
+\begin{document}
+\info%{{{
+{<++>}%Name
+{<++>}%Email
+{<++>}%Address
+{<++>}%Phone
+%}}}
+\section{Internships} %{{{
+
+\intern
+{<++>}%Year
+{<++>}%Institution
+{<++>}%Location
+{<++>}%Position
+\vspace{1em}
+\intern
+{<++>}%Year
+{<++>}%Institution
+{<++>}%Location
+{<++>}%Position
+\vspace{1em}
+%}}}
+\section{Education} %{{{
+
+\school
+{<++>}%Year
+{<++>}%Institution
+{<++>}%Location
+{<++>}%Degree
+\vspace{1em}
+\school
+{<++>}%Year
+{<++>}%Institution
+{<++>}%Location
+{<++>}%Degree
+\vspace{1em}
+\school
+{<++>}%Year
+{<++>}%Institution
+{<++>}%Location
+{<++>}%Degree
+\vspace{1em}
+%}}}
+\section{Work Experience} %{{{
+
+\work
+{<++>}%Year
+{<++>}%Organization
+{<++>}%Location
+{<++>}%Position
+{<++>}%Summary
+\vspace{1em}
+\work
+{<++>}%Year
+{<++>}%Organization
+{<++>}%Location
+{<++>}%Position
+{<++>}%Summary
+
+\workext
+{<++>}%Year
+{<++>}%Position
+{<++>}%Summary
+\vspace{1em}
+\work
+{<++>}%Year
+{<++>}%Organization
+{<++>}%Location
+{<++>}%Position
+{<++>}%Summary
+%}}}
+\clearpage
+\section{Projects}%{{{
+\vspace{1em}
+\work
+{<++>}%Date
+{<++>}%Organization
+{<++>}%Location
+{<++>}%Project
+{<++>}%Summary
+\workext
+{<++>}%Date
+{<++>}%Project
+{<++>}%Summary
+\vspace{1em}
+\work
+{<++>}%Date
+{<++>}%Organization
+{<++>}%Location
+{<++>}%Project
+{<++>}%Summary
+%}}}
+\section{Certifications}%{{{
+\vspace{1em}
+\cert
+{<++>}%Certification Name
+{<++>}%Date
+\cert
+{<++>}%Certification Name
+{<++>}%Date
+%}}}
+\section{Skills}%{{{
+\vspace{.7em}
+\begin{minipage}[t]{.5\textwidth}\scshape
+\begin{spacing}{1.2}
+<++>\\
+<++>\\
+<++>\\
+<++>\\
+<++>\\
+<++>\\
+<++>\\
+\end{spacing}
+\end{minipage}\scshape
+\begin{minipage}[t]{.5\textwidth}
+\begin{spacing}{1.2}
+<++>\\
+<++>\\
+<++>\\
+<++>\\
+<++>\\
+<++>\\
+<++>\\
+\end{spacing}
+\end{minipage}
+\vspace{-0.8cm}
+\vspace{1em}
+%}}}
+\section{References}%{{{
+\vspace{1em}
+\refcon
+{<++>}%Name
+{<++>}%Position
+{<++>}%Institution
+{<++>}%Location
+{<++>}%Email
+{<++>}%Phone
+
+\refcon
+{<++>}%Name
+{<++>}%Position
+{<++>}%Institution
+{<++>}%Location
+{<++>}%Email
+{<++>}%Phone
+
+\refcon
+{<++>}%Name
+{<++>}%Position
+{<++>}%Institution
+{<++>}%Location
+{<++>}%Email
+{<++>}%Phone
+%}}}
+\end{document}
